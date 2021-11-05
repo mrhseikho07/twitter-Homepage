@@ -9,14 +9,14 @@
     justify-content: center;
     width: 100%;
     height: 45px;
-    /* position: fixed;
-    top: 0px; */
+    
 }
 .header{
     width: 80%;
     height: 45px;
     display: flex;
-    
+    /* position: fixed;
+    top: 0px; */
 }
 .Lheader{
     display: flex;
@@ -56,6 +56,7 @@
 li,a{
     text-decoration: none;
     list-style-type: none;
+    color: black;
 }
 .section .header .Lheader .nav-ul li a:hover{
     background:  #daeefe;
@@ -104,28 +105,70 @@ li,a{
     border: 2px solid skyblue;
 }
 .mainsection{
+    width: 100%;
+    /* height: 849px; */
     display: flex;
     justify-content: center;
-    width: 100%;
-    /* height: 1005px; */
-    border: 3px solid black;
+    /* background-color: red; */
 }
 .maincontent{
     width: 80%;
     display: flex;
+    /* background-color: black; */
+    height: 814px;
+    
 }
 .Leftmain{
-    display: flex;
     width: 25%;
-    background-color: #1DA1F2;
+    display: flex;
+    /* background-color: yellowgreen; */
+    flex-direction: column;
+    height: 587px;
+    /* position: fixed; */
+    /* padding: 35px 0px 0px 0px; */
 }
 .main{
-    display: flex;
-    background-color: red;
     width: 50%;
+    display: flex;
+    background-color: orange;
 }
 .right{
-    display: flex;
-    background-color: yellowgreen;
     width: 25%;
+    display: flex;
+    background-color:white;
+}
+.mainsection .maincontent .Leftmain ul li{
+    display: flex;
+    font-size: 20px;
+    /* margin-top: 12px; */
+    padding: 15px 25px 15px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 80%;
+}
+.mainsection .maincontent .Leftmain ul li:hover{
+    background: #d0d1d4;
+}
+.own{
+    width: 90%;
+    height: 100%;
+    padding: 15px;
+    border-radius: 100px;
+}
+.mainsection .maincontent .Leftmain ul .buttonli{
+    width: 100%;
+}
+.mainsection .maincontent .Leftmain ul .buttonli:hover{
+    background: none;
+}
+.mainsection .maincontent .Leftmain .side-name
+{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    border-radius: 50px;
+    width: 85%;
+}
+.mainsection .maincontent .Leftmain .side-name:hover{
+    background: #d0d1d4;
 }
