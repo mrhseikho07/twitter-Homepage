@@ -128,11 +128,7 @@ li,a{
     /* padding: 35px 0px 0px 0px; */
 }
 
-.right{
-    width: 25%;
-    display: flex;
-    background-color:white;
-}
+
 .mainsection .maincontent .Leftmain ul li{
     display: flex;
     font-size: 20px;
@@ -307,4 +303,85 @@ span{
     align-items: center;
     justify-content: center;
     width: 30%;
+}
+.Rheader{
+    display: flex;
+    /* background-color: yellow; */
+    width: 25%;
+    height: 45px;
+}
+.right{
+    width: 25%;
+    /* display: flex; */
+    /* background-color:blue; */
+    margin-top: 10px;
+}
+.rightlist{
+    /* display: flex; */
+    width: 98%;
+    /* background: orange; */
+    height: 500px;
+    /* justify-content: center; */
+    margin-left: 15px;
+}
+.flex{
+    display: flex;
+    width: 100%;
+    background: #F7F9F9;
+    margin-left: 10px;
+    
+}
+.caption h1{
+    width: 100%;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    align-items: center;
+}
+.caption a{
+    display: flex;
+    /* width: 20%; */
+    margin-left: 50px;
+    margin-top: 5px;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 5px 5px 0px 5px;
+    /* background-color: red; */
+
+}
+.caption a:hover{
+    background: #CCC;
+}
+.caption{
+    display: flex;
+}
+.item{
+    /* display: flex; */
+    width: 100%;
+    /* background-color: red; */
+    background: #F7F9F9;
+}
+.fitem{
+    display: flex;
+    align-items: center;
+    /* background-color: purple; */
+}
+.fitem p{
+    width: 100%;
+
+}
+.fitem i{
+    margin-left: 70px;
+    
+}
+.citem h2{
+    font-size: 20px;
+    /* background-color: gray; */
+    /* color: white; */
+    height: 10px;
+}
+.mainsection .maincontent .right .rightlist .item:hover{
+    background: lightgray;
+    /* width: 10px; */
+    color: black;
 }
