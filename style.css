@@ -142,6 +142,9 @@ li,a{
     cursor: pointer;
     width: 80%;
 }
+span{
+    font-weight: normal;
+}
 .mainsection .maincontent .Leftmain ul li:hover{
     background: #d0d1d4;
 }
@@ -171,32 +174,77 @@ li,a{
 .main{
     width: 50%;
     display: flex;
-    background-color: orange;
+    /* background-color: orange; */
 }
 .Post{
-    background: red;
+    /* background: red; */
+    /* display: flex; */
     width: 100%;
     height: 100px;
+    border: 1px solid #CCC;
+    border-top: none;
 }
 .Post .up-elements
 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70px;
+    height: 50px;
+    border-bottom: 1px solid #CCC;
 }
 .Post .up-elements img{
-    width: 42px;
+    width: 50px;
     height: 42px;
     border-radius: 50%; 
 }
 .Post .up-elements input{
     margin-left: 10px;
     height: 40px;
-    width: 597px;
+    width: 100%;
     /* background: #F0F2F5; */
     padding-left: 8px;
     border: none;
     /* border-radius: 30px; */
     font-size: 16px;
+}
+.Post .up-elements input:focus {
+    border: none;
+    outline: none;
+}
+::placeholder {
+    color: black;
+    opacity: 1; 
+  }
+/* .Post  ul li a{
+     padding: 5px;
+     border-radius: 20px;
+     color: skyblue;
+  } */
+  /* .Post  ul li a:hover{
+    background:  #daeefe;
+  } */
+  .none{
+      display: none;
+  }
+.down-elemets{
+    display: flex;
+    width: 100%;
+    /* background-color: red; */
+    /* height: 70px; */
+    /* justify-content: center; */
+    /* align-items: center;                                                                                                                                                                                                                                                                                                                                                                                                                          ; */
+}
+.down-elemets li{
+    font-size: 20px;
+    display: inline-block;
+    padding: 0px 5px 0px 5px;
+    margin-top: 10px;
+    /* background-color: blue; */
+    border-radius: 10px;
+}
+.down-elemets li:hover{
+    background:  #daeefe;
+}
+.down-elemets ul{
+    width: 80%;
 }
