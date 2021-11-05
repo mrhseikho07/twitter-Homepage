@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+.header{
+    width: 80%;
+    height: 45px;
+    
+    display: flex;
+    position: fixed;
+    top: 0px;
+    
+}
+.Lheader{
+    display: flex;
+    width: 25%;
+    height: 45px;
+    align-items: center;
+}
+.Mheadar{
+    display: flex;
+    /* background-color: wheat; */
+    width: 50%;
+    height: 45px;
+}
+.Rheader{
+    display: flex;
+    /* background-color: yellow; */
+    width: 25%;
+    height: 45px;
+}
+.section .header .Lheader .nav-ul{
+    display: flex;
+    list-style-type: none;
+}
+.section .header .Lheader .nav-ul li a{
+    text-decoration: none;
+    color:  #1DA1F2;
+    font-size: 30px;
+    /* background: #d8dadfdc; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 43px;
+    width: 43px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+li,a{
+    text-decoration: none;
+    list-style-type: none;
+}
+.section .header .Lheader .nav-ul li a:hover{
+    background:  #daeefe;
+}
+.Mheadar a{
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    border-left:  1px solid lightgray;
+    border-right: 1px solid lightgray;
+    
+
+}
+.Mheadar a h3{
+    display: flex;
+    width: 90%;
+    margin-left: 10px;
+}
+.Mheadar a i{
+    display: flex;
+    align-items: center;
+    height: 43px;
+    width: 30px;
+    border-radius: 50%;
+}
+.Mheadar a i:hover{
+    background:  #daeefe;
+}
+.fb-search-bar{
+    width: 250px;
+    height: 41px;
+    background: #e7e9ec;
+    border: none;
+    margin-left: 10px;
+    border-radius: 30px;
+    padding-left: 20px;
+    font-size: 15px;
+    outline: none;
+    margin-top: 5px;
+}
+.fb-search-bar:focus{
+    border: 2px solid skyblue;
+}
+.mainsection{
+    display: flex;
+    border: 3px solid black;
+    
+}
