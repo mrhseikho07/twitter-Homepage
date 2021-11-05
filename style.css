@@ -127,11 +127,7 @@ li,a{
     /* position: fixed; */
     /* padding: 35px 0px 0px 0px; */
 }
-.main{
-    width: 50%;
-    display: flex;
-    background-color: orange;
-}
+
 .right{
     width: 25%;
     display: flex;
@@ -171,4 +167,36 @@ li,a{
 }
 .mainsection .maincontent .Leftmain .side-name:hover{
     background: #d0d1d4;
+}
+.main{
+    width: 50%;
+    display: flex;
+    background-color: orange;
+}
+.Post{
+    background: red;
+    width: 100%;
+    height: 100px;
+}
+.Post .up-elements
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+.Post .up-elements img{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%; 
+}
+.Post .up-elements input{
+    margin-left: 10px;
+    height: 40px;
+    width: 597px;
+    /* background: #F0F2F5; */
+    padding-left: 8px;
+    border: none;
+    /* border-radius: 30px; */
+    font-size: 16px;
 }
