@@ -318,9 +318,9 @@ span{
 }
 .rightlist{
     /* display: flex; */
-    width: 98%;
+    /* width: 98%; */
     /* background: orange; */
-    height: 500px;
+    /* height: 400px; */
     /* justify-content: center; */
     margin-left: 15px;
 }
@@ -384,4 +384,14 @@ span{
     background: lightgray;
     /* width: 10px; */
     color: black;
+}
+.show{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.right .rightconten{
+    background: #gray;
+     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.445);
+     height: 450px;
+     width: 100%;
 }
